@@ -2,7 +2,7 @@
 
 Uses BASH to check if IPv4 hosts are up
 
-Mainly created this because I got tried of manually pinging hosts during CTFs, etc. I built this little gadget to help if nmap or otherwise is not available/can't be used. Specifically in when deep in segmented networks to look for lateral targets. 
+Mainly created this because I got tired of manually pinging hosts during CTFs, etc. I built this little gadget to help if nmap or otherwise is not available/can't be used. Specifically when deep in segmented networks to look for lateral targets. 
 
 Users are able to conduct three types of ping recon:
 

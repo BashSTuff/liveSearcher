@@ -12,15 +12,15 @@
 # Do one of the following:
 #
 #			subnet search 	
-# 1) bash liveSearcher.sh 192.168.1.0/24
+# 1) bash liveSearcher.sh 192.168.1.1/24
 #
 #			range search   	
-# 2) bash liveSearcher.sh 192.168.1.0-254
-# 3) bash liveSearcher.sh 192.168.1.0-15.254
-# 3) bash liveSearcher.sh 192.168.1.0-253.15.254
+# 2) bash liveSearcher.sh 192.168.1.1-254
+# 3) bash liveSearcher.sh 192.168.1.1-15.254
+# 3) bash liveSearcher.sh 192.168.1.1-253.15.254
 #
 #			single search	
-# 5) bash liveSearcher.sh 192.168.1.0
+# 5) bash liveSearcher.sh 192.168.1.1
 ##
 
 

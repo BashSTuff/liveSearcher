@@ -136,7 +136,7 @@ function subnet_sweep() {
 	if [ $CIDR -le 30 -a $CIDR -ge 24 ]; then 
 		echo "Scanning " $IP/$CIDR					
 		# calculate subnet here
-		IPNUMBER=${D2B["${c=`echo $IP |cut -d'.' -f4`}"]} # The convert the subnet oct of $IP into binary
+		IPNUMBER=${D2B["${c=`echo $IP |cut -d'.' -f4`}"]} # Convert the subnet oct of $IP into binary
 		IP=`echo $IP|cut -d'.' -f1,2,3`
 		STARTNET=$(( 2#$IPNUMBER & 2#$NETMASK ))  # AND'ing done here
 		sleep 1

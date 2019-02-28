@@ -2,7 +2,7 @@
 # Coded by BashSTuff 
 # Ver1.0
 ##############################################################################################
-###                         BASH IPVv4 live host mapper		                           ###
+###                         BASH IPv4 live host mapper		                           ###
 ##############################################################################################
 # 
 # Script uses ICMP via native ping cmd to map live hosts to IPv4 addr.  

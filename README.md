@@ -1,5 +1,11 @@
 # liveSearcher
 
+***UPDATE ver1.5***<br>
+- improved the scripts flow and logic. Uses less CPU cycles
+- added start/stop time and date
+- added code to show TTLs for potential host OS discovery
+- better error checking and user input validation
+
 Uses BASH to check if IPv4 hosts are up
 
 Mainly created this because I got tired of manually pinging hosts during CTFs, etc. I built this little gadget to help if nmap or otherwise is not available/can't be used. Specifically when deep in segmented networks to look for lateral targets. 
@@ -31,4 +37,16 @@ if three entered:
 
 
 ***NOTE**<br>
-Range pinging does not discriminate against any IPv4 address. Be careful.
+Range pinging does not discriminate against any IPv4 address (i.e. will ping broadcast addrs). Be careful.
+
+
+
+SUBNET scan:
+![](images/subnet.gif)
+
+
+
+
+RANGE scan (careful - will ping EVERY IP address in the range that you enter):
+![](images/range.gif)
+
